@@ -1,0 +1,8 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "http://schema.org/Thing" "http://schema.org/CreativeWork" "http://schema.org/Article" ; /*classes style*/
+	"http://schema.org/CreativeWork" -> "http://schema.org/Thing" [ label = "rdfs:subClassOf" ];
+	"http://schema.org/Article" -> "http://schema.org/CreativeWork" [ label = "rdfs:subClassOf" ];
+
+}
