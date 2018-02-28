@@ -1,0 +1,12 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "http://schema.org/Thing" "http://schema.org/Article" ; /*classes style*/
+	"http://schema.org/OWLDataProperty_96a038b0_4bee_4285_8c4c_71ec7918a189" -> "owl:topDataProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://schema.org/OWLObjectProperty_c12ae2c3_5dcd_46ff_8444_ba022360efa1" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://schema.org/OWLDataProperty_f375bf0e_b480_44f6_8378_8db74872654b" -> "owl:topDataProperty" [ label = "rdfs:subPropertyOf" ];
+	"http://schema.org/Article" -> "http://schema.org/Thing" [ label = "http://schema.org/OWLObjectProperty_c12ae2c3_5dcd_46ff_8444_ba022360efa1" ];
+	"http://schema.org/Article" -> "xsd:string" [ label = "owl:topDataProperty" ];
+	"http://schema.org/Article" -> "xsd:string" [ label = "http://schema.org/OWLDataProperty_96a038b0_4bee_4285_8c4c_71ec7918a189" ];
+
+}

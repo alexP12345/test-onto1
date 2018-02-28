@@ -1,0 +1,38 @@
+{
+  "@context" : {
+    "OWLDataProperty_f375bf0e_b480_44f6_8378_8db74872654b" : {
+      "@id" : "http://schema.org/OWLDataProperty_f375bf0e_b480_44f6_8378_8db74872654b"
+    },
+    "Thing" : {
+      "@id" : "http://schema.org/Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OWLDataProperty_96a038b0_4bee_4285_8c4c_71ec7918a189" : {
+      "@id" : "http://schema.org/OWLDataProperty_96a038b0_4bee_4285_8c4c_71ec7918a189",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "OWLObjectProperty_c12ae2c3_5dcd_46ff_8444_ba022360efa1" : {
+      "@id" : "http://schema.org/OWLObjectProperty_c12ae2c3_5dcd_46ff_8444_ba022360efa1",
+      "@type" : "@id"
+    },
+    "Article" : {
+      "@id" : "http://schema.org/Article"
+    },
+    "CreativeWork" : {
+      "@id" : "http://schema.org/CreativeWork"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    }
+  }
+}
